@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+h2{
+    color: red;
+}
+
+.intro{
+    position: relative;
+    display: inline-block;
+}
+
+.intro::before{
+
+}
+
+.intro::after{
+    
+}
